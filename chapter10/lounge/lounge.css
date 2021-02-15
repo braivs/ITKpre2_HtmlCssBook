@@ -15,30 +15,30 @@ h2 {
 }
 
 #guarantee {
-  font: italic small/1.9em Georgia,"Times New Roman",Times,serif;
+  line-height: 1.9em;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
   color: #444444;
   border: 1px dashed white;
+  background-color: #a7cece;
   padding: 25px;
   padding-left: 80px;
   margin: 30px;
   margin-right: 250px;
-  background: #a7cece url(images/background.gif) no-repeat;
+  background-image: url(images/background.gif);
+  background-repeat: no-repeat;
   background-position: top left;
 }
 
 #elixirs {
   border: thin solid #007e7e;
   width: 200px;
-
-  padding: 0 20px 20px;
+  padding: 0px 20px 20px 20px;
   margin-left: 20px;
-
   text-align: center;
-
-  background: url(images/cocktail.gif) repeat-x;
-
+  background-image: url("images/cocktail.gif");
+  background-repeat: repeat-x;
   line-height: 1;
-
   float: right;
 }
 
@@ -66,10 +66,18 @@ h2 {
 }
 
 a:link {
-  color: #007e7e; 
+  color: #007e7e;
 }
 
 a:visited {
+  color: #333333;
+}
+
+#elixirs a:link {
+  color: #007e7e;
+}
+
+#elixirs a:visited {
   color: #333333;
 }
 
