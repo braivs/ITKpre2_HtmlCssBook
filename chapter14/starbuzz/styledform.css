@@ -24,11 +24,9 @@ div.tableRow p {
 	vertical-align: top;
 	padding: 3px;
 }
-
 div.tableRow p:first-child {
 	text-align: right;
 }
-
 p.heading {
 	font-weight: bold;
 }
